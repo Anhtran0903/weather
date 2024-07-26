@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Container, Input } from 'reactstrap';
-import "./style.css"
+
 
 export default function Wether() {
     const [data,setData]=useState(null);
